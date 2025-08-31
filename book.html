@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book</title>
+    <link rel="stylesheet" href="./src/style.css" />
+    <link rel="stylesheet" href="./src/header.css" />
+    <link rel="stylesheet" href="./src/burgermenu.css" />
+    <link rel="stylesheet" href="./src/book.css" />
+    <script type="module" src="./src/main.ts" defer></script>
+  </head>
+  <body>
+    <header class="desctop">
+      <div>
+        <img class="logo" src="./image/pngwing.com.png" alt="logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a data-t="nav.home" href="./index.html">HOME</a></li>
+          <li><a href="#" data-t="nav.gallery">GALLERY</a></li>
+          <li><a href="#" data-t="nav.about">ABOUT US</a></li>
+        </ul>
+      </nav>
+      <div>
+        <a class="book" href="./book.html">
+          <span data-t="btn.book" class="book-text">BOOK</span>
+        </a>
+
+        <select class="language-switcher">
+          <option value="en" selected>🇬🇧</option>
+          <option value="de">🇩🇪</option>
+        </select>
+      </div>
+    </header>
+
+    <header class="mobile">
+      <div>
+        <img class="logo" src="./image/pngwing.com.png" alt="logo" />
+      </div>
+      <div class="flexmenu">
+        <a class="book" href="./book.html">
+          <span data-t="btn.book" class="book-text">BOOK</span>
+        </a>
+        <a class="hamburger" href="./burgermenu.html">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </div>
+    </header>
+
+    <div class="section_book">
+      <img src="./image/gettyimages-520001019-612x612.jpg" alt="background" />
+      <h3 data-t="booking_us">Booking with us</h3>
+    </div>
+
+    <div class="weather">
+      <h5 data-t="check_weather">Chek the weather - catch the wave!</h5>
+      <div>forecast</div>
+    </div>
+
+    <section class="form">
+      <div class="form-container">
+        <h5 data-t="about you">About You</h5>
+        <form id="userForm">
+          <label for="first name">First Name *</label>
+          <input
+            type="text"
+            id="nameInput"
+            name="firstName"
+            placeholder="Enter your first name"
+            required
+          />
+
+          <label for="last name">Last Name *</label>
+          <input
+            type="text"
+            id="lastName"
+            name="lastName"
+            placeholder="Enter your last name"
+            required
+          />
+
+          <label for="email">E-mail *</label>
+          <input
+            type="email"
+            id="emailInput"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+
+          <label for="tel">Mobile phone *</label>
+          <input
+            type="tel"
+            id="phoneInput"
+            name="tel"
+            placeholder="Enter your mobile phone"
+            required
+          />
+
+          <label for="date">Preferred date *</label>
+          <input
+            type="date"
+            id="dateInput"
+            name="date"
+            placeholder="Enter preferred date"
+            required
+          />
+
+          <button type="submit" class="btn_submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <img class="surfer" src="./image/Surfer-PNG-HD.png" alt="pic" />
+      <div>
+        <h5 data-t="email">E-MAIL</h5>
+        <a href="mailto:info@example.com">info@example.com</a><br />
+        <h5 data-t="call">CALL</h5>
+        <a href="tel:+1234567890">+1 (234) 567-890</a>
+      </div>
+      <h4 data-t="legal">
+        Company Registration No.1000000 Privacy Policy © 2025 Surfing school No1
+      </h4>
+    </footer>
+  </body>
+</html>

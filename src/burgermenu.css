@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-bg-color: #01445e;
+  --primary-color: #d6f2fc;
+  --secondary-color: #f4a300;
+  --whise: rgb(243, 237, 237);
+}
+
+.body_burgermenu {
+  background-color: var(--main-bg-color);
+}
+
+.burgermenu a {
+  text-decoration: none;
+  color: var(--whise);
+  font-family: "Anton", sans-serif;
+  letter-spacing: 2px;
+}
+
+.burgermenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.burgermenu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.burgermenu ul li {
+  margin: 10px 0;
+}
+
+.burgermenu .book {
+  margin-top: 20px;
+  text-align: center;
+}
