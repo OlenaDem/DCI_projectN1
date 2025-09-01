@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 :root {
   --main-bg-color: #01445e;
   --primary-color: #d6f2fc;
@@ -46,7 +47,7 @@ body {
 }
 
 .about {
-  padding: 2rem;
+ 
   max-width: 900px;
   margin: auto;
   text-align: center;
@@ -55,10 +56,14 @@ body {
 .about h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
+  font-family: "Anton", sans-serif;
+  
 }
 
 .gallery {
   padding: 2rem;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .gallery h2 {
@@ -84,3 +89,4 @@ body {
 .grid img:hover {
   transform: scale(1.05);
 }
+
