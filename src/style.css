@@ -51,12 +51,12 @@
   }
 }
 
-/* @keyframes slideUp {
+@keyframes slideUp {
   to {
     opacity: 1;
     transform: translateY(0);
   }
-} */
+}
 
 .motivation {
   text-align: center;
@@ -74,7 +74,7 @@
 
 .theory {
   background-color: var(--primary-color);
-  color: #01445e;
+  color: var(--main-bg-color);
   text-align: center;
   padding: 3em;
 }

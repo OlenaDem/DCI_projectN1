@@ -4,13 +4,6 @@
   box-sizing: border-box;
 }
 
-:root {
-  --main-bg-color: #01445e;
-  --primary-color: #d6f2fc;
-  --secondary-color: #f4a300;
-  --whise: rgb(243, 237, 237);
-}
-
 header {
   display: flex;
   padding: 0 15px;
@@ -135,4 +128,9 @@ footer {
 
   color: var(--primary-color);
   padding: 40px;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--whise);
 }

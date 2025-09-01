@@ -6,13 +6,6 @@
   box-sizing: border-box;
 }
 
-:root {
-  --main-bg-color: #01445e;
-  --primary-color: #d6f2fc;
-  --secondary-color: #f4a300;
-  --whise: rgb(243, 237, 237);
-}
-
 .body_burgermenu {
   background-color: var(--main-bg-color);
 }
