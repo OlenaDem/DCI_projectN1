@@ -18,8 +18,8 @@
       <nav>
         <ul>
           <li><a data-t="nav.home" href="./index.html">HOME</a></li>
-          <li><a href="#" data-t="nav.gallery">GALLERY</a></li>
-          <li><a href="#" data-t="nav.about">ABOUT US</a></li>
+          <li><a href="./gallery.html" data-t="nav.gallery">GALLERY</a></li>
+          <li><a href="./aboutus.html" data-t="nav.about">ABOUT US</a></li>
         </ul>
       </nav>
       <div>
@@ -51,20 +51,22 @@
     </header>
 
     <div class="section_book">
-      <img src="./image/gettyimages-520001019-612x612.jpg" alt="background" />
+      <img src="./image/bus.jpg" alt="background" />
       <h3 data-t="booking_us">Booking with us</h3>
     </div>
 
     <div class="weather">
       <h5 data-t="check_weather">Chek the weather - catch the wave!</h5>
-      <div>forecast</div>
+      <a data-t="btn_weather" class="btn_weather" href="weather.html"
+        ><span>Weather</span></a
+      >
     </div>
 
     <section class="form">
       <div class="form-container">
-        <h5 data-t="about you">About You</h5>
+        <h5 data-t="form_about_you">About You</h5>
         <form id="userForm">
-          <label for="first name">First Name *</label>
+          <label data-t="first_name" for="first name">First Name *</label>
           <input
             type="text"
             id="nameInput"
@@ -73,7 +75,7 @@
             required
           />
 
-          <label for="last name">Last Name *</label>
+          <label data-t="last_name" for="last name">Last Name *</label>
           <input
             type="text"
             id="lastName"
@@ -82,7 +84,7 @@
             required
           />
 
-          <label for="email">E-mail *</label>
+          <label data-t="form_email" for="email">E-mail *</label>
           <input
             type="email"
             id="emailInput"
@@ -91,7 +93,7 @@
             required
           />
 
-          <label for="tel">Mobile phone *</label>
+          <label data-t="form_mobilephone" for="tel">Mobile phone *</label>
           <input
             type="tel"
             id="phoneInput"
@@ -100,7 +102,7 @@
             required
           />
 
-          <label for="date">Preferred date *</label>
+          <label data-t="pref_date" for="date">Preferred date *</label>
           <input
             type="date"
             id="dateInput"
@@ -109,7 +111,9 @@
             required
           />
 
-          <button type="submit" class="btn_submit">Submit</button>
+          <button data-t="btn_submit" type="submit" class="btn_submit">
+            Submit
+          </button>
         </form>
       </div>
     </section>
@@ -122,7 +126,7 @@
         <h5 data-t="call">CALL</h5>
         <a href="tel:+1234567890">+1 (234) 567-890</a>
       </div>
-      <h4 data-t="legal">
+      <h4 class="policy" data-t="legal">
         Company Registration No.1000000 Privacy Policy © 2025 Surfing school No1
       </h4>
     </footer>
