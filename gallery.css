@@ -1,3 +1,10 @@
+:root {
+  --main-bg-color: #01445e;
+  --primary-color: #d6f2fc;
+  --secondary-color: #f4a300;
+  --whise: rgb(243, 237, 237);
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -8,8 +15,8 @@ body {
 
 h1 {
   text-align: center;
-  background-color: #01445e;
-  color: rgb(249, 239, 239);
+  background-color: var(--main-bg-color);
+  color: rgb(249, 249, 249);
   padding: 20px;
   margin: 0;
   font-size: 2rem;

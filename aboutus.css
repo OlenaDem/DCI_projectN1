@@ -1,7 +1,14 @@
+:root {
+  --main-bg-color: #01445e;
+  --primary-color: #d6f2fc;
+  --secondary-color: #f4a300;
+  --whise: rgb(243, 237, 237);
+}
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #d6f2fc;
+  background-color: var(--main-bg-color);
   color: #fff;
   color: #01445e;
   line-height: 1.6;

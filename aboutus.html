@@ -5,8 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title data-t="title">About Us</title>
     <link rel="stylesheet" href="./aboutus.css" />
+    <link rel="stylesheet" href="./gallery.css" />
+    <link rel="stylesheet" href="./src/header.css">
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="./src/book.css">
+    <link rel="stylesheet" href="./burgermenue.css"/>
+   
   </head>
   <body>
+    <header class="desctop">
+      <div>
+        <img class="logo" src="./image/pngwing.com.png" alt="logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a data-t="nav.home" href="./index.html">HOME</a></li>
+          <li><a href="#" data-t="nav.gallery">GALLERY</a></li>
+          <li><a href="#" data-t="nav.about">ABOUT US</a></li>
+        </ul>
+      </nav>
+      <div>
+        <a class="book" href="./book.html">
+          <span data-t="btn.book" class="book-text">BOOK</span>
+        </a>
+
+        <select class="language-switcher">
+          <option value="en" selected>🇬🇧</option>
+          <option value="de">🇩🇪</option>
+        </select>
+      </div>
+    </header>
+
+    <header class="mobile">
+      <div>
+        <img class="logo" src="./image/pngwing.com.png" alt="logo" />
+      </div>
+      <div class="flexmenu">
+        <a class="book" href="./book.html">
+          <span data-t="btn.book" class="book-text">BOOK</span>
+        </a>
+        <a class="hamburger" href="./burgermenu.html">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </div>
+    </header>
+
     <header class="hero"></header>
 
     <section class="about">
@@ -36,5 +81,18 @@
       </h2>
       <div class="grid"></div>
     </section>
+
+     <footer>
+      <img class="surfer" src="./image/Surfer-PNG-HD.png" alt="pic" />
+      <div>
+        <h5 data-t="email">E-MAIL</h5>
+        <a href="mailto:info@example.com">info@example.com</a><br />
+        <h5 data-t="call">CALL</h5>
+        <a href="tel:+1234567890">+1 (234) 567-890</a>
+      </div>
+      <h4 data-t="legal">
+        Company Registration No.1000000 Privacy Policy © 2025 Surfing school No1
+      </h4>
+    </footer>
   </body>
 </html>
