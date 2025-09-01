@@ -5,11 +5,9 @@
   --whise: rgb(243, 237, 237);
 }
 
-
 .suggestions {
-   
   position: absolute;
-  background:#d6f2fc;
+  background: #d6f2fc;
   color: #333;
   border-radius: 6px;
   margin-top: 5px;
@@ -38,21 +36,26 @@
 }
 
 .forecast-day {
-  background: rgba(255, 255, 255, 0.2);
-  padding: 12px;
-  border-radius: 12px;
-  width: 120px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 30px;
+  border-radius: 16px;
+  width: 400px;
   text-align: center;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  font-size: 2.1rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.app{
-    background-color: var(--primary-color);
-    height: 100vh;
-    text-align: center;
-
+.forecast-day:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
 }
-.weatherhead{
-    background-color: #92b7c8;
 
+.app {
+  background-color: var(--primary-color);
+  height: 100vh;
+  text-align: center;
+}
+.weatherhead {
+  background-color: #92b7c8;
 }
