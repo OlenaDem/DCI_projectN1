@@ -26,6 +26,7 @@
   display: block;
   object-fit: cover;
   object-position: center;
+  /* max-width: 80%; */
 }
 
 .hero h1 {
@@ -42,6 +43,20 @@
   opacity: 0;
   transform: translateY(30px);
   animation: slideUp 1.2s ease-out forwards;
+}
+
+@media (width > 900px) {
+  .hero img {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .hero {
+    text-align: center;
+    background-color: var(--primary-color);
+  }
+  .hero h1 {
+    left: 120px;
+  }
 }
 
 @media (max-width: 670px) {
@@ -70,6 +85,7 @@
   font-family: "Anton", sans-serif;
   font-size: 1.1em;
   letter-spacing: 0.9px;
+  margin-bottom: 1em;
 }
 
 .theory {
@@ -99,6 +115,9 @@
       " img3 grid3"
       " grid4 img4";
   }
+  .theory img {
+    margin: 0 auto;
+  }
 }
 
 .grid1 {
@@ -120,6 +139,7 @@
   font-size: 1.1em;
   font-family: "Anton", sans-serif;
   letter-spacing: 0.9px;
+  margin-bottom: 1em;
 }
 
 .surfer {
